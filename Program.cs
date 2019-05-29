@@ -18,7 +18,7 @@ namespace TestConsole
 				{
 					try
 					{
-						Console.Write("Введите индекс начала последовательности: ");
+						Console.Write("Введите индекс начала последовательности2: ");
 						var begin = int.TryParse(Console.ReadLine(), out var res) ? res : 0;
 						Console.Write("Введите индекс конца последовательности: ");
 						var end = int.TryParse(Console.ReadLine(), out var result) ? result : 0;
